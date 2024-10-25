@@ -1,0 +1,80 @@
+/* src/components/Weather.css */
+.weather-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #5f03aa;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #5f03aa;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #45018b;
+}
+
+.suggestions-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.suggestions-list li {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #eee;
+}
+
+.suggestions-list li:hover {
+  background-color: #ddd;
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.weather-info img {
+  width: 50px;
+  height: 50px;
+}
+
+.clock {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.signature {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #5f03aa;
+  margin-top: 20px;
+}
